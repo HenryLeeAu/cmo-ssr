@@ -126,7 +126,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //sectionBgGrey
 
 var Header = _styledComponents2.default.h2.withConfig({
-  displayName: 'SectionBase__Header'
+  displayName: 'SectionBase__Header',
+  componentId: 'sc-24gnx8-0'
 })(['border-bottom:1px solid #c22b70;color:#c22b70;text-transform:', ';font-size:', ';letter-spacing:0;font-weight:700;margin:0 0 20px 0;text-align:left;padding:0 0 5px;'], function (_ref) {
   var headerUpperCase = _ref.headerUpperCase;
   return headerUpperCase ? 'uppercase' : 'lowercase';
@@ -135,7 +136,8 @@ var Header = _styledComponents2.default.h2.withConfig({
   return headerSizeLg ? '28px' : '12px';
 });
 var Warp = _styledComponents2.default.div.withConfig({
-  displayName: 'SectionBase__Warp'
+  displayName: 'SectionBase__Warp',
+  componentId: 'sc-24gnx8-1'
 })(['border:', ';padding:', ';border-radius:', ';box-shadow:', ';background-color:', ';margin-bottom:20px;ul{list-style:none;margin-bottom:15px;li{margin-bottom:15px;a{color:#000;font-size:13px}h3{font-weight:700;margin:0;line-height:1.3;a{font-size:17px;}&.small{a{font-size:13px;font-weight:normal;}}span{&.tag{font-weight:700;color:#000;&::after{content:\' | \';font-weight:100;color:#555;}}}}p{margin:5px 0;color:#777;font-size:13px;line-height:1.3;}.author{color:#ccc;font-weight:bold;}}&.disc{list-style-type:disc;color:#c22b70;padding-left:25px;li{margin-bottom:8px;}}}'], function (_ref3) {
   var sectionBorder = _ref3.sectionBorder;
   return sectionBorder ? '1px solid #ddd' : false;
@@ -226,7 +228,8 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var LHR = _styledComponents2.default.div.withConfig({
-  displayName: "SiteWrapperWithRHS__LHR"
+  displayName: "SiteWrapperWithRHS__LHR",
+  componentId: "bylbeu-0"
 })(["min-height:10px;"]);
 
 exports.default = function (MainContent) {
@@ -401,7 +404,8 @@ var _SectionBase2 = _interopRequireDefault(_SectionBase);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Ul = _styledComponents2.default.ul.withConfig({
-  displayName: 'Popular__Ul'
+  displayName: 'Popular__Ul',
+  componentId: 'sc-1su28nc-0'
 })(['position:relative;li{padding-left:30px;&::before{counter-increment:li;font-style:italic;font-weight:bold;font-size:1.3em;width:22px;line-height:22px;display:inline-block;text-align:center;background:#0089c5;color:#fff;margin-right:5px;border-radius:15px;position:absolute;left:0}&:nth-child(1){&::before{content:\'1\';}}&:nth-child(2){&::before{opacity:0.8;content:\'2\';}}&:nth-child(3){&::before{opacity:0.7;content:\'3\';}}&:nth-child(4){&::before{opacity:0.6;content:\'4\';}}&:nth-child(5){&::before{opacity:0.5;content:\'5\';}}}']);
 
 exports.default = function (props) {
@@ -464,7 +468,8 @@ var _SectionBase2 = _interopRequireDefault(_SectionBase);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Con = _styledComponents2.default.div.withConfig({
-  displayName: 'FeaturedWhitepaper__Con'
+  displayName: 'FeaturedWhitepaper__Con',
+  componentId: 'y9alda-0'
 })(['margin-left:75px;']);
 
 exports.default = function (props) {
@@ -555,16 +560,20 @@ var _SectionBase2 = _interopRequireDefault(_SectionBase);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Con = _styledComponents2.default.div.withConfig({
-  displayName: 'WebEvents__Con'
+  displayName: 'WebEvents__Con',
+  componentId: 'sc-1wa5n4e-0'
 })(['display:inline-block;width:74%;vertical-align:middle;']);
 var A = _styledComponents2.default.a.withConfig({
-  displayName: 'WebEvents__A'
+  displayName: 'WebEvents__A',
+  componentId: 'sc-1wa5n4e-1'
 })(['display:inline-block;width:25%;vertical-align:middle;img{width:80%;}']);
 var Li = _styledComponents2.default.li.withConfig({
-  displayName: 'WebEvents__Li'
+  displayName: 'WebEvents__Li',
+  componentId: 'sc-1wa5n4e-2'
 })(['vertical-align:middle;']);
 var Img = _styledComponents2.default.img.withConfig({
-  displayName: 'WebEvents__Img'
+  displayName: 'WebEvents__Img',
+  componentId: 'sc-1wa5n4e-3'
 })(['']);
 
 exports.default = function (props) {
@@ -750,19 +759,24 @@ var _reactHelmet = __webpack_require__(10);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Header = _styledComponents2.default.h1.withConfig({
-  displayName: 'Article__Header'
+  displayName: 'Article__Header',
+  componentId: 'sc-18j0ryw-0'
 })(['font-size:39px;font-weight:normal;line-height:1.2;margin:0;']);
 var HeaderDescription = _styledComponents2.default.p.withConfig({
-  displayName: 'Article__HeaderDescription'
+  displayName: 'Article__HeaderDescription',
+  componentId: 'sc-18j0ryw-1'
 })(['font-size:19px;color:#777;margin:0 0 15px;']);
 var Author = _styledComponents2.default.p.withConfig({
-  displayName: 'Article__Author'
+  displayName: 'Article__Author',
+  componentId: 'sc-18j0ryw-2'
 })(['list-style-type:none;padding:0;margin:0 0 10px;font-size:13px;border-top:0 solid #ddd;text-transform:uppercase;color:#999;font-weight:400;']);
 var ImageWrapper = _styledComponents2.default.figure.withConfig({
-  displayName: 'Article__ImageWrapper'
+  displayName: 'Article__ImageWrapper',
+  componentId: 'sc-18j0ryw-3'
 })(['padding:0;margin:0;text-align:center;img{max-width:100%;display:inline-block;}figcaption{color:#888;font-weight:normal;font-size:0.85em;padding:5px 20px 5px 20px;text-align:center;border-bottom:1px solid #eee;}']);
 var Tags = _styledComponents2.default.aside.withConfig({
-  displayName: 'Article__Tags'
+  displayName: 'Article__Tags',
+  componentId: 'sc-18j0ryw-4'
 })(['font-style:italic;ul{list-style:none;margin:0;padding:0;li{display:inline-block;a{display:inline-block;font-size:.85em;background:#f3f3f3;color:#555;padding:5px 10px;margin:0 0 5px 5px;border-radius:15px;transition:all .1s ease-in;&:hover{background:#33a0d1;color:#fff;}}}}']);
 var Article = function Article(props) {
 
