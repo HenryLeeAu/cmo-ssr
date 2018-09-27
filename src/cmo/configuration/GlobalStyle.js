@@ -8,15 +8,15 @@ const boxBackgroundColor = theme('mode', {
 const themeColor = theme('mode', {
   light: '#0074b0',
   dark: '#666',
-})
+});
 const themeColorHover = theme('mode', {
   light: '#268faf',
   dark: '#000',
-})
+});
 const themeLabel = theme('mode', {
   light: '#c22b70',
   dark: 'green',
-})
+});
 const GlobalStyle = styled.div`
     font-size:14px;
     line-height: 1.5;
@@ -137,4 +137,4 @@ const GlobalStyle = styled.div`
     }
   background-color: ${boxBackgroundColor};
 `;
-export default GlobalStyle
+export default GlobalStyle;

@@ -1,50 +1,43 @@
-
 const defaultState = {
-   InitialSSR:false,
-   loading:false,
-   response:{}
-}
+  InitialSSR: false,
+  loading: false,
+  response: {},
+};
 export default (state = defaultState, action) => {
   switch (action.type) {
- 
-    case "FETCH_HOME":
+    case 'FETCH_HOME':
       return {
         ...state,
-        loading:false,
+        loading: false,
         response: {
-          ...action.payload.data
+          ...action.payload.data,
         },
-    }
-    case "FETCH_HOME/PENDING":
+      };
+    case 'FETCH_HOME/PENDING':
       return {
         ...state,
-        loading:true,
-        
-        
-    }
-    case "INITIALSSR":
+        loading: true,
+      };
+    case 'INITIALSSR':
       return {
         ...state,
-        InitialSSR:true,
-        
-        
-    }
-    case "FETCH_MAIN_CONTENT":
-   // console.log(action.payload)
+        InitialSSR: true,
+      };
+    case 'FETCH_MAIN_CONTENT':
+      // console.log(action.payload)
       return {
         ...state,
         response: {
-          ...action.payload.data
-        }
-      } 
+          ...action.payload.data,
+        },
+      };
 
-    case "CLEAR_MAIN_CONTENT":
+    case 'CLEAR_MAIN_CONTENT':
       return {
         ...defaultState,
-        InitialSSR:true,
-      }
+        InitialSSR: true,
+      };
     default:
       return state;
   }
-
 };

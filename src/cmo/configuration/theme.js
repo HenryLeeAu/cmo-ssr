@@ -1,6 +1,5 @@
-const theme ={
-  mode:'light'
-}
+const theme = {
+  mode: 'light',
+};
 
-export default theme 
- 
+export default theme;
